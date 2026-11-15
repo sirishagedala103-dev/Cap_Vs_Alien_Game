@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d30ebo7uakvax"]
+
+[ext_resource type="Script" uid="uid://ckxcuxnmb6dko" path="res://character_body_2d.gd" id="1_ij6vw"]
+[ext_resource type="Texture2D" uid="uid://45btc5p4encr" path="res://PNGHUT_com - Millions of handpicked free to download PNG images.jpg" id="2_ghijl"]
+[ext_resource type="Script" uid="uid://bpfd25flgxvvg" path="res://sprite_2d.gd" id="3_ghijl"]
+
+[node name="Player" type="CharacterBody2D" unique_id=611580992]
+script = ExtResource("1_ij6vw")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=2057141654]
+position = Vector2(246, 311.00006)
+scale = Vector2(0.30027178, 0.4026006)
+texture = ExtResource("2_ghijl")
+script = ExtResource("3_ghijl")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1390641862]
